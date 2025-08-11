@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Mango.Services.ShoppingCartAPI.Models.Dto
+﻿namespace Mango.Services.OrderAPI.Models.Dto
 {
     public class CartHeaderDto
     {
