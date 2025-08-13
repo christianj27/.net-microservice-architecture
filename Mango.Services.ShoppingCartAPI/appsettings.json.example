@@ -9,6 +9,7 @@
   "ConnectionStrings": {
     "DefaultConnection": "YOUR_CONNECTION_STRING_HERE"
   },
+  "ServiceBusConnectionString": "YOUR_CONNECTION_STRING_HERE",
   "ApiSettings": {
     "Secret": "YOUR_SECRET_HERE",
     "Issuer": "YOUR_ISSUER_HERE",
