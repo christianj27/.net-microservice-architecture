@@ -1,0 +1,23 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "YOUR_CONNECTION_STRING_HERE"
+  },
+  "ApiSettings": {
+    "Secret": "YOUR_SECRET_HERE",
+    "Issuer": "YOUR_ISSUER_HERE",
+    "Audience": "YOUR_AUDIENCE_HERE"
+  },
+  "ServiceUrls": {
+    "ProductAPI": "https://localhost:7000"
+  },
+  "TopicAndQueueNames": {
+
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "YOUR_CONNECTION_STRING_HERE"
+  },
+  "ApiSettings": {
+    "JwtOptions": {
+      "Secret": "YOUR_SECRET_HERE",
+      "Issuer": "YOUR_ISSUER_HERE",
+      "Audience": "YOUR_AUDIENCE_HERE"
+    }
+  },
+  "TopicAndQueueNames": {
+    "RegisteredUserQueue": "YOUR_TOPIC_OR_QUEUE_NAMES"
+  }
+}
